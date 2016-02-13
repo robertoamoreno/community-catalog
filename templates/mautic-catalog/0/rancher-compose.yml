@@ -1,0 +1,9 @@
+log:
+  name: "Mautic"
+  version: "v0.1-educaas"
+  description: "Mautic Marketing Automation"
+  uuid: odoo-0
+  minimum_rancher_version: v0.51.0
+  questions:
+
+mautic:
