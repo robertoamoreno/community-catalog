@@ -5,5 +5,13 @@ log:
   uuid: odoo-0
   minimum_rancher_version: v0.51.0
   questions:
+  - variable: "mysql_link"
+      description: |
+        Choose the Zookeeper service to use. 
+        It's really recommended a dedicated zookeeper service just for Kafka.
+      label: "Zookeeper stack/service"
+      default: "kafka-zk/zk"
+      required: true
+      type: "service"
 
-mautic:
+mautic:	
